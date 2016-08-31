@@ -1,0 +1,11 @@
+#navbar{
+    background-color: transparent;
+    text-align: center;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+navbar li{
+    display:inline-block;
+}
