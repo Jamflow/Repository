@@ -23,40 +23,33 @@ body {
     transform: rotate(360deg);
     opacity: 0.5;
 }
-#popup {
-    position: absolute;
-    left:-900px;
-    z-index: 1;
-    padding:15px 15px;
-    outline: black;
-    background-color:yellow;
-    opacity: 0.9;
+
+.cpuImg {
+    left:480;
+    top:270;
+    display: none;
+    color: #FFF;
 }
+.image-container:hover .cpuImg {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
 .cpuImg{
     opacity:0;
 }
 .cpuImg:hover{
     opacity:0.9;
 }
-.cpuImg:hover + #popup{
-    top:400px;
-    left:300px;
-}
-.overlap
-{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: blue;
-}
-.overlap:after
-{
-    
-    content:url(computer.jpg);
+#cpuText{
     position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 5px;
-    left: 5px;
-    background-color: red;
+    left:-500px;
+}
+.cpuImg:hover + #cpuText{
+    width:30;
+    height:30; 
+    top:86%;
+    left: 38%;
+    outline: black;
+    background-color:yellow;
 }
