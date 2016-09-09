@@ -56,17 +56,9 @@ body {
 }
 .motherboardImg:hover + #motherboardText{
     width:300px;
-    height:400px; 
+    height:540px; 
     top:65%;
     left: 40%;
-    outline: black;
-    background-color:yellow;
-}
-.motherboardImg:hover + .busImg{
-    width:300px;
-    height:240px; 
-    top:65%;
-    left: 50%;
     outline: black;
     background-color:yellow;
 }
@@ -123,9 +115,9 @@ body {
     left:-900px;
 }
 .ramImg:hover + #ramText{
-    width:300px;
-    height:213px; 
-    top:82%;
+    width:350px;
+    height:390px; 
+    top:65%;
     left: 38%;
     outline: black;
     background-color:yellow;
@@ -154,7 +146,7 @@ body {
 }
 .hdImg:hover + #hdText{
     width:300px;
-    height:213px; 
+    height:263px; 
     top:82%;
     left: 68%;
     outline: black;
