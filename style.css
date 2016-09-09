@@ -44,11 +44,29 @@ body {
     top:-900px;
     left:-900px;
 }
+.busImg {
+    left:480;
+    top:270;
+    opacity:0;
+}
+#busText{
+    position: absolute;
+    top:-900px;
+    left:-900px;
+}
 .motherboardImg:hover + #motherboardText{
+    width:300px;
+    height:400px; 
+    top:65%;
+    left: 40%;
+    outline: black;
+    background-color:yellow;
+}
+.motherboardImg:hover + .busImg{
     width:300px;
     height:240px; 
     top:65%;
-    left: 40%;
+    left: 50%;
     outline: black;
     background-color:yellow;
 }
