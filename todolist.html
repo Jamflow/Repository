@@ -1,6 +1,4 @@
-<!doctype html>
-<html>
-    <head>
+<head>
         <link rel="stylesheet" href="style.css">
         <title> </title>
         <head>
@@ -24,35 +22,28 @@
             <li><a href="howto.html">How To</a></li>
         </ul>
     </body>
+    
+<!--Creates div and input for the user to set action items. -->
+<div id="todolist">
+    <input id="actionInput" type="text">
 
-<div id="calculator" style="width:565px;height:210px;">
-<br>
+<select id="taskColor">
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+    <option value="green">Green</option>
+    <option value="orange">Orange</option>
+    <option value="purple">Purple</option>
+    <option value="black">Black</option>
+    <option value="white">White</option>
+    
+</select>
 
-<form id="EquationMaker">
-  <!--Creates Number Input 1-->
-  <input id="NumberInput1" type="text" name="firstNumber">
+<input id="taskButton" type="button" value="Add"></input>
 
-  <!--Creates dropdown menu for mathematical operations-->
-  <select id="OperationChoices">
-      <option value="+">+</option>
-      <option value="-">-</option>
-      <option value="*">*</option>
-      <option value="/">/</option>
-  </select>
-  
-  <!--Creates Number Input 2-->
-  <input id="NumberInput2" type="text" name="secondNumber"/>
-</form>
-
-<!--Creates clickable "Calculate" button-->
-<button id="CalculateButton" onclick=calulate()>Calculate</button>
-
-<!--Creates div that displays answers-->
-<p id="ans">Answer</p>
-<p id="Answer"> </p>
+<div id="newTask">
+</div>
 
 </div>
 
-</html>
-
-<script type="text/javascript" src="calculator.js"></script>
+<script type="text/javascript" src="todolist.js"></script>
