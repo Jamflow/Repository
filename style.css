@@ -2,19 +2,21 @@ body {
     background-color: #5cb85c;
 }
 
-#navbar{
+#navbar {
     background-color: purple;
     text-align: center;
 }
-#navbar a{
+
+#navbar a {
     text-decoration: none;
     color: white;
 }
-#navbar li{
-    display:inline-block;
+
+#navbar li {
+    display: inline-block;
     padding: 15px;
-    
 }
+
 .computerImg {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -24,137 +26,164 @@ body {
     opacity: 0.5;
 }
 
+
 /*MOTHERBOARD HOVER*/
+
 .motherboardImg {
-    left:280;
-    top:270;
+    left: 280;
+    top: 270;
     display: none;
     color: #FFF;
-    opacity:0;
+    opacity: 0;
 }
+
 .image-container:hover .motherboardImg {
     display: block;
     background: rgba(0, 0, 0, .6);
 }
-.motherboardImg:hover{
-    opacity:0.9;
-}
-#motherboardText{
-    position: absolute;
-    top:-900px;
-    left:-900px;
-}
-.busImg {
-    left:480;
-    top:270;
-    opacity:0;
-}
-#busText{
-    position: absolute;
-    top:-900px;
-    left:-900px;
-}
-.motherboardImg:hover + #motherboardText{
-    width:300px;
-    height:540px; 
-    top:65%;
-    left: 40%;
-    outline: black;
-    background-color:yellow;
+
+.motherboardImg:hover {
+    opacity: 0.9;
 }
 
+#motherboardText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.busImg {
+    left: 480;
+    top: 270;
+    opacity: 0;
+}
+
+#busText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.motherboardImg:hover+#motherboardText {
+    width: 300px;
+    height: 540px;
+    top: 65%;
+    left: 40%;
+    outline: black;
+    background-color: yellow;
+}
+
+
 /*CPU HOVER*/
+
 .cpuImg {
-    left:480;
-    top:270;
+    left: 480;
+    top: 270;
     display: none;
     color: #FFF;
-    opacity:0;
+    opacity: 0;
 }
+
 .image-container:hover .cpuImg {
     display: block;
     background: rgba(0, 0, 0, .6);
 }
 
-.cpuImg:hover{
-    opacity:0.9;
-}
-#cpuText{
-    position: absolute;
-    top:-900px;
-    left:-900px;
-}
-.cpuImg:hover + #cpuText{
-    width:300px;
-    height:230px; 
-    top:82%;
-    left: 38%;
-    outline: black;
-    background-color:yellow;
+.cpuImg:hover {
+    opacity: 0.9;
 }
 
+#cpuText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.cpuImg:hover+#cpuText {
+    width: 300px;
+    height: 230px;
+    top: 82%;
+    left: 38%;
+    outline: black;
+    background-color: yellow;
+}
+
+
 /*RAM HOVER*/
+
 .ramImg {
-    left:480;
-    top:270;
+    left: 480;
+    top: 270;
     display: none;
     color: #FFF;
-    opacity:0;
+    opacity: 0;
 }
+
 .image-container:hover .ramImg {
     display: block;
     background: rgba(0, 0, 0, .6);
 }
 
-.ramImg:hover{
-    opacity:0.9;
-}
-#ramText{
-    position: absolute;
-    top:-900px;
-    left:-900px;
-}
-.ramImg:hover + #ramText{
-    width:350px;
-    height:390px; 
-    top:65%;
-    left: 38%;
-    outline: black;
-    background-color:yellow;
+.ramImg:hover {
+    opacity: 0.9;
 }
 
+#ramText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.ramImg:hover+#ramText {
+    width: 350px;
+    height: 390px;
+    top: 65%;
+    left: 38%;
+    outline: black;
+    background-color: yellow;
+}
+
+
 /*HARDDRIVE HOVER*/
+
 .hdImg {
-    left:480;
-    top:270;
+    left: 480;
+    top: 270;
     display: none;
     color: #FFF;
-    opacity:0;
+    opacity: 0;
 }
+
 .image-container:hover .hdImg {
     display: block;
     background: rgba(0, 0, 0, .6);
 }
 
-.hdImg:hover{
-    opacity:1;
-}
-#hdText{
-    position: absolute;
-    top:-900px;
-    left:-900px;
-}
-.hdImg:hover + #hdText{
-    width:300px;
-    height:293px; 
-    top:82%;
-    left: 68%;
-    outline: black;
-    background-color:yellow;
+.hdImg:hover {
+    opacity: 1;
 }
 
+#hdText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.hdImg:hover+#hdText {
+    width: 300px;
+    height: 293px;
+    top: 82%;
+    left: 68%;
+    outline: black;
+    background-color: yellow;
+}
+
+
 /*CALCULATOR DROPDOWN MENU*/
+
+
 /* Dropdown Button */
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -164,27 +193,36 @@ body {
     cursor: pointer;
 }
 
+
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #3e8e41;
 }
 
+
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 /* Dropdown Content (Hidden by Default) */
+
 .mathOperations {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Links inside the dropdown */
+
 .mathOperations a {
     color: black;
     padding: 12px 16px;
@@ -192,19 +230,33 @@ body {
     display: block;
 }
 
+
 /* Change color of dropdown links on hover */
-.mathOperations a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-#calculator {
-    border:Black 12px ridge;
-    text-align: center;
-    margin:auto;
+.mathOperations a:hover {
+    background-color: #f1f1f1
 }
 
-#todolist{
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+#calculator {
+    border: Black 12px ridge;
     text-align: center;
-    margin:auto;
+    margin: auto;
+}
+
+#todolist {
+    text-align: center;
+    margin: auto;
+    top: 34%;
+}
+
+#vindSnapOne {
+    display: block;
+    margin: auto;
 }
