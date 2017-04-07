@@ -24,18 +24,23 @@
             <li><a href="howto.html">How To</a></li>
         </ul>
     </body>
-    
+
+<!-- Creates hardwards headings -->
     <body>
         <h1 align=middle>HARDWARE</h1>
         <h2 align=middle>Hover Over Any Hardware In The Computer</h2>
-        
+
+<!-- Creates div of images and p-tag strings for each introduced hardware parts. The interal computer hardware images and string divs
+are positioned over a image of the entire computer so once hovered over, the part img appears over the actual part in the transparent image.-->
         <div class="image-container">
+            <img class="keyboardAndMouseImg" src=keyboardAndMouse.png style="position: absolute; top: 300px; left: 922px;width:400px;height:200px;"/>
+            <img class="monitorImg" src=monitor.png style="position: absolute; top: 550px; left: 922px;width:400px;height:200;"/>
             <img class="computerImg" src=compooder.png style="position: relative;width:900px;height:760px;"/>
             <img class="hdImg" src=harddrive.png style="position: absolute; top: 572px; left: 523px;width:332px;height:194px;"/>
             <p id = "hdText">HARD DRIVE: Also known as hard disks and in reference to the opposite of RAM, "Long-term memory",
             hard drives are mainly used to store large amounts of data in digital systems. They hold your day-to-day operating systems, 
             executable programs, and files such as images, music, and everything dandy to you until they are removed/deleted.</p>
-            <img class="motherboardImg" src=motherboard.png />
+            <img class="motherboardImg" src=motherboard.png style="position: absolute; top: 460px; left: 168px;width:365px;height:440px;"/>
             <p id = "motherboardText">MOTHERBOARD: This is the main Printed Circuit Board (PCB) that contains 
             and allows all communication between the principal components of a system, 
             such being the CPU, RAM, and graphics card slots. It is also reffered to as the 
@@ -52,7 +57,9 @@
             for interacting with processed data and executing instructions. This memory is temporary and "random-accessed" for it's capability
             of accessing any single byte. Byte addressability is different for systems depending on the type of storage devices connected such as hard disks and flash
             drives.</p>
-        </div>
+            <p id = "mouseKeyboardText">KEYBOARD: A computer keyboard is hardware set of typewriter-like keys that enable a user to enter data of text, characters, and commands into a computer or other devices. MOUSE: A mouse is a hand-operated input device used to manipulate objects and software on a computer monitor screen.</p>
+            <p id = "monitorText">MONITOR: A computer monitor/screen is a hardware display that shows the computer interface and programs, allowing interaction with the computer through input devices typically being a keyboard and computer mouse.
+         </div>
         
     </body>
     

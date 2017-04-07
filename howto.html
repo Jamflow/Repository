@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title> </title>
+        <head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Baloo+Chettan">
+    <style>
+      body {
+        font-family: 'Baloo Chettan', serif;
+        font-size: 18px;
+      }
+    </style>
+    </head>
+     <body>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="todolist.html">To Do List</a></li>
+            <li><a href="vindinium.html">Vindinium</a></li>
+            <li><a href="bigproject.html">Big Project</a></li>
+            <li><a href="howto.html">How To</a></li>
+        </ul>
+    </body>
+
+<style>
+#howToTitle{
+    font-size:35px;
+}
+</style>
+    
+<div id="howToBackground">
+<body>
+    <div id="howToIntro">
+    <h id="howToTitle"> How To Page</h>
+    
+    <p id="howToHardware">In this "How To" page, I will be describing the steps that I took to make my hardware page and provide my code for reference.</p>
+    </div>
+    <br>
+    <div id="howToElements">
+        <p> To start, I began with basic tags such as < p > and < h >. The < p > tag is used to create strings of sentences and paragraphs.
+        The < h > is the header tag forms a header string usually used to give titles. </p>
+       
+    <div id="elementsCode" style="overflow:scroll; height:400px; background-color: grey; color:chartreuse;">
+    &lt;!DOCTYPE html&gt;<br/>&lt;html&gt;<br/>    &lt;head&gt;<br/>        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;<br/>        &lt;title&gt; &lt;/title&gt;<br/>        &lt;head&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;//fonts.googleapis.com/css?family=Baloo+Chettan&quot;&gt;<br/>    &lt;style&gt;<br/>      body {<br/>        font-family: 'Baloo Chettan', serif;<br/>        font-size: 18px;<br/>      }<br/>    &lt;/style&gt;<br/>    &lt;/head&gt;<br/>     &lt;body&gt;<br/>        &lt;ul id=&quot;navbar&quot;&gt;<br/>            &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;aboutMe.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;hardware.html&quot;&gt;Hardware&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;calculator.html&quot;&gt;Calculator&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;todolist.html&quot;&gt;To Do List&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;vindinium.html&quot;&gt;Vindinium&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;bigproject.html&quot;&gt;Big Project&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;howto.html&quot;&gt;How To&lt;/a&gt;&lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/body&gt;<br/><br/>&lt;!-- Creates hardwards headings --&gt;<br/>    &lt;body&gt;<br/>        &lt;h1 align=middle&gt;HARDWARE&lt;/h1&gt;<br/>        &lt;h2 align=middle&gt;Hover Over Any Hardware In The Computer&lt;/h2&gt;<br/><br/>&lt;!-- Creates div of images and p-tag strings for each introduced hardware parts. The interal computer hardware images and string divs<br/>are positioned over a image of the entire computer so once hovered over, the part img appears over the actual part in the transparent image.--&gt;<br/>        &lt;div class=&quot;image-container&quot;&gt;<br/>            &lt;img class=&quot;keyboardAndMouseImg&quot; src=keyboardAndMouse.png style=&quot;position: absolute; top: 300px; left: 922px;width:400px;height:200px;&quot;/&gt;<br/>            &lt;img class=&quot;monitorImg&quot; src=monitor.png style=&quot;position: absolute; top: 550px; left: 922px;width:400px;height:200;&quot;/&gt;<br/>            &lt;img class=&quot;computerImg&quot; src=compooder.png style=&quot;position: relative;width:900px;height:760px;&quot;/&gt;<br/>            &lt;img class=&quot;hdImg&quot; src=harddrive.png style=&quot;position: absolute; top: 572px; left: 523px;width:332px;height:194px;&quot;/&gt;<br/>            &lt;p id = &quot;hdText&quot;&gt;HARD DRIVE: Also known as hard disks and in reference to the opposite of RAM, &quot;Long-term memory&quot;,<br/>            hard drives are mainly used to store large amounts of data in digital systems. They hold your day-to-day operating systems, <br/>            executable programs, and files such as images, music, and everything dandy to you until they are removed/deleted.&lt;/p&gt;<br/>            &lt;img class=&quot;motherboardImg&quot; src=motherboard.png style=&quot;position: absolute; top: 460px; left: 168px;width:365px;height:440px;&quot;/&gt;<br/>            &lt;p id = &quot;motherboardText&quot;&gt;MOTHERBOARD: This is the main Printed Circuit Board (PCB) that contains <br/>            and allows all communication between the principal components of a system, <br/>            such being the CPU, RAM, and graphics card slots. It is also reffered to as the <br/>            mainframe or body of a system.&lt;br /&gt;&lt;br /&gt;BUS: Also called the &quot;Data Highway&quot;, those thin lines all over the motherboard are<br/>            bus. They are simply physical connections that can be in the form of cables and printed circuits, allowing communication between one component <br/>            to another as data travels at a speed measured in megahertz (MHz).&lt;/p&gt;<br/>            &lt;img class=&quot;cpuImg&quot; src=cpu.png style=&quot;position: absolute; top: 469px; left: 210px;width:194px;height:148px;&quot;/&gt;<br/>            &lt;p id = &quot;cpuText&quot;&gt;CENTRAL PROCESSING UNIT (CPU): Commonly referred to as the &quot;backbone&quot; or &quot;brain&quot; <br/>            of a computer, this is where instructions sent from components and programs that are calculated using <br/>            basic arithmetic (binary), then processed to enable the system to perform functions. &lt;/p&gt;<br/>            &lt;img class=&quot;ramImg&quot; src=RAM.png style=&quot;position: absolute; top: 500px; left: 402px;width:77px;height:192px;&quot;/&gt;<br/>            &lt;p id = &quot;ramText&quot;&gt;RANDOM ACCESS MEMORY (RAM): Rather compared to short-term memory, RAM is volatile (rapidly-changing)<br/>            memory used by a system to store data for the CPU to process. As it is the main memory of a system, the is temporary workspace<br/>            for interacting with processed data and executing instructions. This memory is temporary and &quot;random-accessed&quot; for it's capability<br/>            of accessing any single byte. Byte addressability is different for systems depending on the type of storage devices connected such as hard disks and flash<br/>            drives.&lt;/p&gt;<br/>            &lt;p id = &quot;mouseKeyboardText&quot;&gt;KEYBOARD: A computer keyboard is hardware set of typewriter-like keys that enable a user to enter data of text, characters, and commands into a computer or other devices. MOUSE: A mouse is a hand-operated input device used to manipulate objects and software on a computer monitor screen.&lt;/p&gt;<br/>            &lt;p id = &quot;monitorText&quot;&gt;MONITOR: A computer monitor/screen is a hardware display that shows the computer interface and programs, allowing interaction with the computer through input devices typically being a keyboard and computer mouse.<br/>         &lt;/div&gt;<br/>        <br/>    &lt;/body&gt;
+    </div>
+        <br>
+        
+        <p id="howToCSS"> My page also uses Cascading Style Sheet (css) to make the style my string, divs, and images in terms of color, font, opacity, general aethstetic, etc. I did this by referring to my html with style tags.</p>
+
+    <div id="hardwareCSScode" style="overflow:scroll; height:400px; background-color: grey; color:chartreuse;">  
+    <code><pre>
+        body {
+    background-image: url('sfPic.jpg');
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    background-color: purple;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.computerImg {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 0.7;
+}
+
+
+/*MOTHERBOARD HOVER*/
+
+.motherboardImg {
+    left: 280;
+    top: 270;
+    display: none;
+    color: #FFF;
+    opacity: 0;
+}
+
+.image-container:hover .motherboardImg {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.motherboardImg:hover {
+    opacity: 0.9;
+}
+
+#motherboardText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.busImg {
+    left: 480;
+    top: 270;
+    opacity: 0;
+}
+
+#busText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.motherboardImg:hover+#motherboardText {
+    width: 300px;
+    height: 540px;
+    top: 65%;
+    left: 40%;
+    outline: black;
+    background-color: yellow;
+}
+
+
+/*CPU HOVER*/
+
+.cpuImg {
+    left: 480;
+    top: 270;
+    display: none;
+    color: #FFF;
+    opacity: 0;
+}
+
+.image-container:hover .cpuImg {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.cpuImg:hover {
+    opacity: 0.9;
+}
+
+#cpuText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.cpuImg:hover+#cpuText {
+    width: 300px;
+    height: 230px;
+    top: 82%;
+    left: 38%;
+    outline: black;
+    background-color: yellow;
+}
+
+
+/*RAM HOVER*/
+
+.ramImg {
+    left: 480;
+    top: 270;
+    display: none;
+    color: #FFF;
+    opacity: 0;
+}
+
+.image-container:hover .ramImg {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.ramImg:hover {
+    opacity: 0.9;
+}
+
+#ramText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.ramImg:hover+#ramText {
+    width: 350px;
+    height: 390px;
+    top: 65%;
+    left: 38%;
+    outline: black;
+    background-color: yellow;
+}
+
+
+/*HARDDRIVE HOVER*/
+
+.hdImg {
+    left: 480;
+    top: 270;
+    display: none;
+    color: #FFF;
+    opacity: 0;
+}
+
+.image-container:hover .hdImg {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.hdImg:hover {
+    opacity: 1;
+}
+
+#hdText {
+    position: absolute;
+    top: -900px;
+    left: -900px;
+}
+
+.hdImg:hover+#hdText {
+    width: 300px;
+    height: 293px;
+    top: 82%;
+    left: 68%;
+    outline: black;
+    background-color: yellow;
+}
+
+
+/*CALCULATOR DROPDOWN MENU*/
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.mathOperations {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Links inside the dropdown */
+
+.mathOperations a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.mathOperations a:hover {
+    background-color: #f1f1f1
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+#calculator {
+    border: Black 12px ridge;
+    text-align: center;
+    margin: auto;
+}
+
+#todolist {
+    text-align: center;
+    margin: auto;
+    top: 34%;
+}
+
+.VindExplanation {
+    background-color: purple;
+    opacity: 0.8
+}
+
+#VindCode {
+    background-color: white;
+    opacity: 0.9
+}
+
+#aboutMeText {
+    background-color: white;
+    opacity: 0.8
+}
+
+#howToBackground {
+    background-color: white;
+    opacity: 0.8;
+}
+    </pre></code>
+    </div>
+     
+    </div>
+ <div id="todolistHowTo">
+        <p> In developing my todolist, I used both html and javascript. The code below can be used for reference with explanatory comments.</p>
+    </div>
+    
+    <head>TO DO LIST HTML CODE</head>
+    <div id="todolistHTML" style="overflow:scroll; height:400px; background-color:grey; color:chartreuse;">
+    &lt;head&gt;<br/>        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;<br/>        &lt;title&gt; &lt;/title&gt;<br/>        &lt;head&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;//fonts.googleapis.com/css?family=Baloo+Chettan&quot;&gt;<br/>    &lt;style&gt;<br/>      body {<br/>        font-family: 'Baloo Chettan', serif;<br/>        font-size: 18px;<br/>      }<br/>    &lt;/style&gt;<br/>    &lt;/head&gt;<br/>     &lt;body&gt;<br/>        &lt;ul id=&quot;navbar&quot;&gt;<br/>            &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;aboutMe.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;hardware.html&quot;&gt;Hardware&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;calculator.html&quot;&gt;Calculator&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;todolist.html&quot;&gt;To Do List&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;vindinium.html&quot;&gt;Vindinium&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;bigproject.html&quot;&gt;Big Project&lt;/a&gt;&lt;/li&gt;<br/>            &lt;li&gt;&lt;a href=&quot;howto.html&quot;&gt;How To&lt;/a&gt;&lt;/li&gt;<br/>        &lt;/ul&gt;<br/>    &lt;/body&gt;<br/>    <br/>&lt;!--Creates div and input for the user to set action items. --&gt;<br/>&lt;div id=&quot;todolist&quot;&gt;<br/>    &lt;input id=&quot;actionInput&quot; type=&quot;text&quot;&gt;<br/><br/>&lt;select id=&quot;taskColor&quot;&gt;<br/>    &lt;option value=&quot;red&quot;&gt;Red&lt;/option&gt;<br/>    &lt;option value=&quot;blue&quot;&gt;Blue&lt;/option&gt;<br/>    &lt;option value=&quot;yellow&quot;&gt;Yellow&lt;/option&gt;<br/>    &lt;option value=&quot;green&quot;&gt;Green&lt;/option&gt;<br/>    &lt;option value=&quot;orange&quot;&gt;Orange&lt;/option&gt;<br/>    &lt;option value=&quot;purple&quot;&gt;Purple&lt;/option&gt;<br/>    &lt;option value=&quot;black&quot;&gt;Black&lt;/option&gt;<br/>    &lt;option value=&quot;white&quot;&gt;White&lt;/option&gt;<br/>    &lt;option value=&quot;teal&quot;&gt;Teal&lt;/option&gt;<br/>&lt;/select&gt;<br/><br/>&lt;input id=&quot;taskButton&quot; type=&quot;button&quot; value=&quot;Add&quot;&gt;&lt;/input&gt;<br/><br/>&lt;div id=&quot;newTask&quot;&gt;<br/>&lt;/div&gt;<br/><br/>&lt;/div&gt;<br/><br/>&lt;script type=&quot;text/javascript&quot; src=&quot;todolist.js&quot;&gt;&lt;/script&gt;<br/>
+    </div>
+    
+    <head>TO DO LIST JAVASCRIPT CODE</head>
+    <div id="todolistJS" style="overflow:scroll; height:400px; background-color:grey; color:chartreuse;">
+    <code><pre>var actionInput = document.getElementById("actionInput");
+var taskColor = document.getElementById("taskColor");
+var newTask = document.getElementById("newTask");
+var taskButton = document.getElementById("taskButton");
+
+/*Adds event listener for clicks upon task button and creates new tasks.*/
+taskButton.addEventListener("click", function() {
+    
+    var color = taskColor.value
+    var task = "<div style='color:"+color+"'>"+actionInput.value+"</div>";
+    
+    newTask.innerHTML = newTask.innerHTML+task;
+    
+});
+
+/*Creates function that removes task when clicked.*/
+newTask.addEventListener("click",function(evt){
+
+    var existingTask = evt.target;
+
+    existingTask.parentNode.removeChild(existingTask);
+        
+});
+    </pre></code>
+    </div>
+    
+</body>
+</div>
+
+</html>
+
