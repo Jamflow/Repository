@@ -37,5 +37,17 @@ CalculateButton.addEventListener("click", function() {
          Answer.innerHTML = (num1) / (num2);
     
     }
+    
+    else if (operation === "^") {
+        
+         Answer.innerHTML = Math.pow((num1),(num2));
+    
+    }
+    
+    else if (operation === "%") {
+        
+         Answer.innerHTML = (num1) % (num2);
+    
+    }
 
 });

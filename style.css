@@ -257,8 +257,8 @@ body {
     top: 34%;
 }
 
-.VindExplanation {
-    background-color: purple;
+#VindExplanation {
+    background-color: white;
     opacity: 0.8
 }
 

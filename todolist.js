@@ -2,6 +2,7 @@ var actionInput = document.getElementById("actionInput");
 var taskColor = document.getElementById("taskColor");
 var newTask = document.getElementById("newTask");
 var taskButton = document.getElementById("taskButton");
+var clearButton = document.getElementById("clearButton");
 
 /*Adds event listener for clicks upon task button and creates new tasks.*/
 taskButton.addEventListener("click", function() {
@@ -20,5 +21,14 @@ newTask.addEventListener("click",function(evt){
 
     existingTask.parentNode.removeChild(existingTask);
         
+});
+    
+/*Creates function that removes all existing tasks when clicked.*/
+clearButton.addEventListener("click",function(evt){
+
+    var allTasks = newTask
+    while (allTasks.hasChildNodes()) {
+    allTasks.removeChild(allTasks.firstChild);
+    }   
 });
     

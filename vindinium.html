@@ -69,10 +69,10 @@ Bot.prototype.botBrain = function() {
         task = "freemines";
         
         if (bot.bot1.life < 45) {
-            task = "tavern"
+            task = "attack"
             
         } else if (bot.bot1.life >= 45) {
-            task = "attack"   
+            task = "tavern"   
         }
 
         if (bot.freeMines == 0){
@@ -166,8 +166,20 @@ bot.runGame();
 
 
     </pre></code>
-
+        
 </div>
+
+<p> The default task of my bot is to find and claim mines in the map. If the health of enemy bot number one is less than 45, then my bot will attack the nearest bot, but if the health of the first bot is equal or greater than 45, my bot will go to a tavern in case it's health is lower than the enemy bot. If all the mines within the map are claimed, my bot will apprehend the bots who claim the most mines besides itself and attack them. If my bot's health is less than 50, it will go to the tavern, otherwise, it will go back to claiming free mines. If there are no free mines and my bots health is over 50, then it will go towards nearby bots.
+<br></br>
+    In summary, my bot is a reckless knight whose primary goal is to find and fight other bots in the map if all mines are taken, most typically rivaling the first other bot identified as an enemy.
+<br></br>
+    __________________________________________________________________
+<br></br>
+    As I wanted, my bot prioritizes claiming mines, but will attack enemies as much as possible. At first, this concept was complicated to determine how the bot would function, but I realize the concept of boolean is key when developing a bot, as if predicting the possibilities and obstacles my bot would face and how they would approach it. In close, I loved creating an AI and my overall understanding and opinion of artificial intelligence has expanded in the sense of how simple it is to create small prototypes of the robots we see in movies and are starting to see in this generation.
+<br></br>
+    Personally, in an era of broadening technology and living in a center of rapid construction of technology, the San Francisco Bay Area, my interest in technology AIs will stick to me looking forward (especially as I will be majoring in the engineering field).
+    </p>
+
 </body>
 </div>
 
